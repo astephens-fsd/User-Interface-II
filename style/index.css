@@ -65,6 +65,22 @@ body{
     background-color:#FFFAFA;
 }
 
+h1, h2, h3, h4{
+    letter-spacing: 3px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+    color:#FFFAFA;
+}
+h2{
+    font-size: 3rem;
+}
+section{
+    padding: 4% 0;
+}
+
 a{
     text-decoration:none;
     letter-spacing:3px;
@@ -73,9 +89,9 @@ a{
     background-color: #8C3FBF;
 }
     a:hover{
-    color: #8C3FBF;
-    background-color: #FFFAFA;
-    border: 1px solid #8C3FBF;
+    background-color: #049DD9;
+    color: #F2AA52;
+    border: 2px dotted #FFFAFA;
 }
 
 /* Header Section Styles */
@@ -100,4 +116,37 @@ header nav{
     width:50%;
     display:flex;
     justify-content: space-evenly; 
+}
+
+/* Hero Image Styles */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: #8C3FBF;
+    margin-top: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero button{
+    color: #049DD9;
+    font-size: 2.5rem;
+    padding: 5% 10%;
+}
+
+.hero button:hover{
+    background-color: #049DD9;
+    color: #F2AA52;
+    border: 2px dotted #FFFAFA;
 }
