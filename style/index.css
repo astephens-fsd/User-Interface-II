@@ -123,29 +123,20 @@ header nav{
 .hero{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 80vh;
-    background: #8C3FBF;
-    margin-top: 5%;
-    background-size: cover;
+}
+
+.hero-button{
+    background-image: url("https://picsum.photos/600/400");
     background-repeat: no-repeat;
-    background-position: center top;
-}
-
-.button{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero button{
-    color: #049DD9;
-    font-size: 2.5rem;
+    background-size: cover;
+    color: white;
+    font-size: large;
+    width: 600px;
+    height: 400px;
     padding: 5% 10%;
 }
 
-.hero button:hover{
+.hero-button:hover{
     background-color: #049DD9;
     color: #F2AA52;
     border: 2px dotted #FFFAFA;
@@ -187,4 +178,14 @@ header nav{
 
 .tech2{
     background-image: url('https://unsplash.com/photos/kZXajpZaQXY');
+}
+
+/* footer styles */
+
+footer{
+    background-color:#8C3FBF;
+    color:#fff;
+    padding:2% 0;
+    display:flex;
+    justify-content:space-between;
 }
